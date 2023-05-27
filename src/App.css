@@ -28,11 +28,60 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.App {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  /* background: #282c34; */
+}
+.logPage {
+  height: 100vh;
+  width: 100vw;
+  background: #01212e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 400px; */
+}
+.logContent {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  /* min-width: 50%; */
+  width: 300px;
+}
+@media only screen and (min-width: 600px) {
+  .logContent {
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.logContent h2 {
+  color: rgba(255, 255, 255, 0.837);
+}
+.logContent input {
+  margin: 15px 0px 15px 0px;
+  padding: 12px 0 12px 18px;
+  border-radius: 30px;
+  background: #476468;
+  border: none;
+  outline: none;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+
+  color: black;
+  opacity: 0.7; /* Firefox */
+}
+.chatBtn {
+  margin: 15px 0px 15px 0px;
+  padding: 12px 0 12px 18px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-weight: bold;
 }

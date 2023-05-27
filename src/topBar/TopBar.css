@@ -1,0 +1,47 @@
+.topBar {
+  display: flex;
+
+  /* flex-direction: row; */
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.wifi-icon {
+  padding: 5px;
+  width: 25px;
+  /* height: 4%; */
+  height: 25px;
+}
+.time {
+  padding: 5px;
+  font-size: small;
+}
+
+.backIcon span {
+  color: red;
+  width: 30px;
+  height: 30px;
+  font-weight: 900;
+  size: 30px;
+  font-size: large;
+}
+
+.contactBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name h4 {
+  margin: -10px;
+}
+.name span {
+  font-size: small;
+  color: gray;
+  font-size: 19px;
+}
+
+.profileImg img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
